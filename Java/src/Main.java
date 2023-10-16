@@ -1,3 +1,4 @@
+import leetCode.MergeTwoArrays;
 import stack.*;
 
 public class Main {
@@ -11,11 +12,17 @@ public class Main {
      MaxAreaHistrogram maxAreaHistrogram = new MaxAreaHistrogram();
      MaxRectOfBinaryMatrix maxRectOfBinaryMatrix = new MaxRectOfBinaryMatrix();
 
+     //LeetCode
+        MergeTwoArrays mergeTwoArrays = new MergeTwoArrays();
+
+
         //stack
         nextGreaterNumberLeft.ngnl();
        nextGreaterNumberRight.ngnr();
        nextSmallestNumberRight.nsnr();
        nextSmallestNumberLeft.nsnl();
 
-    }
+       //leetCode
+        mergeTwoArrays.mta();
+        }
 }
